@@ -11,7 +11,11 @@ body {
     height: 50px;
 }
 
+/* First section of the body */
+
 .header {
+    padding-top: 10px;
+    padding-bottom: 50px;
     background: #1F2937;   
 }
 
@@ -19,9 +23,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    gap: 400px;
+    gap: 600px;
+    margin-bottom: 50px;
 }
 
 .belowlogo {
@@ -42,7 +45,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 400px;
-
+    gap: 10px;
 }
 
 .signup .first {
@@ -51,18 +54,51 @@ ul {
     color: #f9faf8;
 }
 
-.signup p {
+.signup .text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .belowlogo img {
-    width: 300px;
-    height: 150px;
+    width: 500px;
+    height: 216px;
 }
 
 button {
     border-radius: 8px;
     width: 100px;
     background-color: #3882F6;
+}
+
+/*  Second ection of the body */
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap:50px;
+}
+
+.top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.infosection {
+    display: flex;
+    gap:40px;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
 }
