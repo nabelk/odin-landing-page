@@ -11,7 +11,7 @@ body {
 .header {
     padding-top: 10px;
     padding-bottom: 50px;
-    background: #1F2937;   
+    background: #1F2937;
 }
 
 .logo {
@@ -78,6 +78,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 90px;
     gap:50px;
 }
 
@@ -101,4 +102,27 @@ button {
 .info {
     max-width: 200px;
     text-align: center;
+}
+
+/* Third section of the body */
+
+.thirdsection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 10% 15%;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:  #1F2937; 
+    margin-left: 10%;
+}
+
+.name {
+    padding-left: 65%;
+    font-weight:500;
 }
