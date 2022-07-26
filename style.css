@@ -30,9 +30,13 @@ body {
 ul {
     list-style: none;
     display:flex;
+    gap: 10px;
+}
+
+a {
     font-size: 18px;
     color: #E5E7EB;
-    gap: 10px;
+    text-decoration: none;
 }
 
 .belowlogo {
@@ -68,6 +72,7 @@ button {
     border-radius: 8px;
     width: 100px;
     background-color: #3882F6;
+    color: white;
 }
 
 /*  Second section of the body */
@@ -94,9 +99,10 @@ button {
 }
 
 .info img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 10px;
+    border-radius: 25px;
 }
 
 .info {
