@@ -70,9 +70,12 @@ a {
 
 button {
     border-radius: 8px;
+    height: 25px;
     width: 100px;
     background-color: #3882F6;
     color: white;
+    cursor: pointer;
+    border: none;
 }
 
 /*  Second section of the body */
@@ -126,9 +129,51 @@ button {
     font-style: italic;
     color:  #1F2937; 
     margin-left: 10%;
+    font-weight: 100;
 }
 
 .name {
     padding-left: 65%;
     font-weight:500;
+}
+
+/* Fourth section of the body */
+
+.fourthsection  {
+    background-color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    padding: 3% 8%;
+    border-radius: 5px;
+    gap:100px;
+    color:white;
+    font-weight: 200;
+}
+
+.call {
+    font-weight: 700;
+}
+
+.container button {
+    border: 2px solid white;
+}
+
+/* Footer */
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    font-weight: 100;
+    font-size:x-small;
 }
